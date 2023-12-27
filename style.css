@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eeeeee;
+    /* height: 1000px; */
+    width: 80%;
+    margin: auto;
+    font-family: lato;
+}
+
+img {
+    width: 200px;
+    padding-left: 20px;
+}
+
+nav {
+    background: #1b3340;
+    padding: 10px 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-right: 30px;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background: yellowgreen;
+    margin-top: 10px;
+    height: 220px;
+    color: white;
+}
+
+header h1 {
+    font-weight: 100;
+}
+
+.cards {
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.card {
+    background: white;
+}
+
+.card h1 {
+    margin: 10px;
+    font-size: 30px;
+}
+
+.card p {
+    margin-inline: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 10px;
+    background: white;
+    line-height: 25px;
+}
+
+.content  {
+    margin: 10px;
+    width: 73%;
+}
+
+.content h1, h2 {
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.navigation {
+    width: 30%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.navigation h1 {
+    margin-bottom: 20px;
+}
+
+
+.navigation a {
+    text-decoration: none;
+    color: gray;
+    padding: 20px 0px 12px 10px;
+}
+
+.links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background: lightgray;
+}
+
+
+@media (min-width: 1024px) {
+    .card p {
+        font-size: 28px;
+    }
+  
+}
